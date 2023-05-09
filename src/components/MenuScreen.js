@@ -1,9 +1,9 @@
 import React from "react";
-import "./MenuScreen.css";
-import MenuHeader from "../MenuHeader";
-import MenuList from "../MenuList";
-import MenuItem from "../MenuItem";
-import menuList from "../menuList.json";
+import "../css/MenuScreen.css";
+import MenuHeader from "./MenuHeader";
+import MenuList from "./MenuList";
+import menuList from "./MenuList";
+import MenuItem from "./MenuItem";
 
 function MenuScreen() {
   return (

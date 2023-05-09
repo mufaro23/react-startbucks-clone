@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import FindAStore from './FindAStore'
-import './FooterSecondary.css'
+import '../css/FooterSecondary.css'
 
 function FooterSecondary({ alignItems, paddingLeft, flexDirection }) {
   return (

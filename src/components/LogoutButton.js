@@ -1,20 +1,20 @@
 import React from 'react'
-import './LogoutButton.css'
-import { logout } from './features/userSlice'
-import { auth } from './firebase'
+import '../css/LogoutButton.css'
 import { useDispatch } from 'react-redux'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+import {auth} from "../utils/firebase";
+import {logout} from "../slices/userSlice";
 
 function LogoutButton() {
   const dispatch = useDispatch()
-  const history = useHistory()
+  const history = useNavigate()
 
   const logoutOfApp = () => {
     auth
       .signOut()
       .then(() => {
         dispatch(logout())
-        history.replace('/')
+        history('/')
       })
       .catch((error) => alert(error.message))
   }

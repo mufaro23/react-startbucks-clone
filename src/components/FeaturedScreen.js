@@ -1,9 +1,9 @@
 import React from "react";
-import Featured from "../Featured";
-import "./FeaturedScreen.css";
-import Heading from "../Heading";
-import Info from "../Info";
+import "../css/FeaturedScreen.css";
 import { Fade } from "react-awesome-reveal";
+import Featured from "./Featured";
+import Heading from "./Heading";
+import Info from "./Info";
 
 function FeaturedScreen() {
   return (

@@ -1,13 +1,13 @@
 import React from 'react'
-import './Header.css'
+import '../css/Header.css'
 import { Link } from 'react-router-dom'
 import { Example } from './Example.js'
 import SignInButton from './SignInButton'
 import SignUpButton from './SignUpButton'
 import FindAStore from './FindAStore'
 import { useSelector } from 'react-redux'
-import { selectUser } from './features/userSlice'
 import LogoutButton from './LogoutButton'
+import {selectUser} from "../slices/userSlice";
 
 function Header({ menuPage }) {
   const user = useSelector(selectUser)

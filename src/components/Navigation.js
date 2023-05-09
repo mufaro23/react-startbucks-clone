@@ -5,8 +5,8 @@ import SignInButton from "./SignInButton";
 import SignUpButton from "./SignUpButton";
 import FindAStore from "./FindAStore";
 import { useSelector } from "react-redux";
-import { selectUser } from "./features/userSlice";
 import LogoutButton from "./LogoutButton";
+import {selectUser} from "../slices/userSlice";
 
 const variants = {
   open: {

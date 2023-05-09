@@ -1,10 +1,10 @@
 import React from "react";
-import "./HomeScreen.css";
+import "../css/HomeScreen.css";
 import { Link } from "react-router-dom";
-import Featured from "../Featured";
-import Heading from "../Heading";
-import Info from "../Info";
 import { Fade } from "react-awesome-reveal";
+import Heading from "./Heading";
+import Featured from "./Featured";
+import Info from "./Info";
 
 function HomeScreen() {
   return (

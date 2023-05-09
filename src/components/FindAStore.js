@@ -1,5 +1,5 @@
 import React from 'react'
-import './FindAStore.css'
+import '../css/FindAStore.css'
 import { Link } from 'react-router-dom'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 

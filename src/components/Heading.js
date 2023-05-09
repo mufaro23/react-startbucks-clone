@@ -1,5 +1,5 @@
 import React from 'react'
-import './Heading.css'
+import '../css/Heading.css'
 
 function Heading({ heading }) {
   return <h1 className='heading'>{heading}</h1>

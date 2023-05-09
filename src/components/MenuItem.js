@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './MenuItem.css'
+import '../css/MenuItem.css'
 import { Fade } from 'react-awesome-reveal'
 
 function MenuItem({ type, image }) {

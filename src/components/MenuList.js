@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './MenuList.css'
-import menuList from './menuList.json'
+import '../css/MenuList.css'
+import menuList from '../utils/menuList.json'
 
 function MenuList() {
   return (

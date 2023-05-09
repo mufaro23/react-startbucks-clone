@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FooterSecondary from "../FooterSecondary";
-import "./SignupScreen.css";
-import SignupForm from "../SignupForm";
+import "../css/SignupScreen.css";
+import SignupForm from "./SignupForm";
+import FooterSecondary from "./FooterSecondary";
 
 function SignupScreen() {
   return (

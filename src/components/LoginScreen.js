@@ -1,17 +1,17 @@
 import { TextField } from "@material-ui/core";
 import React, { useState } from "react";
-import "./LoginScreen.css";
+import "../css/LoginScreen.css";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import CloseIcon from "@material-ui/icons/Close";
 import ReportProblemRoundedIcon from "@material-ui/icons/ReportProblemRounded";
 import VisibilityOffOutlinedIcon from "@material-ui/icons/VisibilityOffOutlined";
 import VisibilityOutlinedIcon from "@material-ui/icons/VisibilityOutlined";
-import { auth } from "../firebase";
 import { useDispatch } from "react-redux";
-import { login } from "../features/userSlice";
-import FormSubmit from "../FormSubmit";
-import FooterSecondary from "../FooterSecondary";
+import {auth} from "../utils/firebase";
+import {login} from "../slices/userSlice";
+import FooterSecondary from "./FooterSecondary";
+import FormSubmit from "./FormSubmit";
 
 function LoginScreen() {
   const { register, handleSubmit, watch, errors } = useForm();

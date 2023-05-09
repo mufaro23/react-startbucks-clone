@@ -1,5 +1,5 @@
 import React from 'react'
-import './SignUpButton.css'
+import '../css/SignUpButton.css'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 

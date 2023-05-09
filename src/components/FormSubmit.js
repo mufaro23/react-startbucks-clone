@@ -1,5 +1,5 @@
 import React from 'react'
-import './FormSubmit.css'
+import '../css/FormSubmit.css'
 
 function FormSubmit({ name, type, onClick }) {
   return (

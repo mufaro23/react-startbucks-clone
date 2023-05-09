@@ -1,5 +1,5 @@
 import React from 'react'
-import './Info.css'
+import '../css/Info.css'
 import { Link } from 'react-router-dom'
 
 function Info({

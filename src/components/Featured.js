@@ -1,5 +1,5 @@
 import React from 'react'
-import './Featured.css'
+import '../css/Featured.css'
 import { Link } from 'react-router-dom'
 
 function Featured({
